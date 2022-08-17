@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Prestige Agents - Find your next property with prestige</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/pa-icon.png">
+
+    <script>  
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        }; 
+    </script>
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,700&family=Noto+Serif&display=swap" 
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Mr+Dafoe&display=swap" 
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1c0ffd96af.js" crossorigin="anonymous"></script>
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+      
+  </head>
+  <body>
+    <section id="title">
+        <div class="container-fluid header">
+			
+            
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/prestige-agents-logo-white.svg" alt="prestige agents logo">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#buy-featured">BUY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rent-featured">RENT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_us.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- Title -->
+            <div class="row">
+                <div class="col-12 header-content" id="titleWelcome">
+                    <h1 class="header-heading">Who are you?</h1>
+                    <button class="btn btn-outline-light btn-lg title-button" type="button" onclick="buyerButtonClick()">BUYER</button>
+                    <button class="btn btn-outline-light btn-lg title-button" type="button" onclick="renterButtonClick()">RENTER</button>
+                </div>
+
+                <form class="col-12 header-content header-search" id="buyerSearch">
+                    <h1 class="header-heading search-heading" onclick="resetSearch()">For Sale</h1>
+                    <div class="input-group mb-3 search-bar">
+                        <input type="text" class="form-control" placeholder="Search..." aria-label="for sale search" id="forSaleSearchField">
+                        <button class="btn btn-outline-light" type="button" id="forSaleSearchButton">Search</button>
+                    </div>
+                    <h3>Find your forever home</h3>
+                </form>
+
+                <form class="col-12 header-content header-search" id="renterSearch">
+                    <h1 class="header-heading search-heading" onclick="resetSearch()">For Rent</h1>
+                    <div class="input-group mb-3 search-bar">
+                        <input type="text" class="form-control " placeholder="Search..." aria-label="for rent search" id="forRentSearchField">
+                        <button class="btn btn-outline-light" type="button" id="forRentSearchButton">Search</button>
+                    </div>
+                    <h3>Find your next home</h3>
+                </form>
+                <div class="col-12 down-arrow">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                
+            </div>
+
+        </div>
+
+        
+    </section>
+
+    <section class="light-section for-sale" id="buy-featured">
+        <h2 class="section-heading"><span class="light-heading-em"><i class="fa-solid fa-house"></i> For Sale Featured</span> </h2>
+        
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house1.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">Beautiful family home in a great seaside outer-suburb of Brisbane</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house2.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Twin Waters, Sunshine Coast</h3>
+                        <p class="card-text">Contempory coastal living, a diamond in the sand.</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 5 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 4 <i class="fa fa-car property-icon" aria-hidden="true"></i> 2</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house3.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">A great family home on the coast</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house4.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">A great family home on the coast</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="light-section" id="rent-featured">
+        <h2 class="section-heading"><i class="fa-solid fa-house"></i><span class="light-heading-em"> For Rent Featured</span></h2>
+        
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house5.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">A great family home on the coast</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house6.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">A great family home on the coast</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house7.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">A great family home on the coast</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+                <div class="card property-card">
+                    <img src="img/house8.jpg" class="card-img-top" alt="house preview image">
+                    <div class="card-body">
+                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
+                        <p class="card-text">A great family home on the coast</p>
+                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="coloured-section" id="testimonial">
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-pause="hover" data-interval="2500">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">I would never sell with another real estate, 10/10 for service.</h2>
+                    <img class="testimonial-image" src="img/sam-profile.jpg" alt="Sam profile picture">
+                    <em>Sam, Brisbane</em>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">They made the entire rental process so easy. Can not recommend them highly enough.</h2>
+                    <img class="testimonial-image" src="img/georgie-profile.jpg" alt="Georgie profile picture">
+                    <em>Georgie, Robina</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="light-section" id="footer">
+        <div class="container-fluid footer">
+            <p>
+                <a href="https://www.facebook.com/" class="social-icon-link" aria-label="Facebook">
+                    <i class="fa fa-facebook-square social-icon" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.Linkedin.com/" class="social-icon-link" aria-label="Linkedin">
+                    <i class="fa fa-linkedin-square social-icon" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/" class="social-icon-link" aria-label="Instagram">
+                    <i class="fa-brands fa-square-instagram social-icon"></i>
+                </a>
+            </p>
+            <p class="copyright-text">© Copyright 2022 Joshua Turner s0258441</p>
+        </div>
+    </section>
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <!-- custom js scripts -->
+    <script src="js/index.js"></script>
+
+</body>
+</html>

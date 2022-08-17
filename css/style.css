@@ -1,0 +1,156 @@
+body{
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    /* font-family: 'Montserrat', sans-serif;*/
+    font-weight: 900; 
+}
+
+p{
+    /* font-family: 'Cormorant Garamond', serif; */
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-option-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 3rem;
+}
+
+.header-content{
+    text-align: center;
+    padding: 20rem 0 20rem 0;
+    color: #fff;
+}
+
+.header-heading{
+    font-family: 'Parisienne', cursive;
+    font-size: 5rem;
+}
+
+.search-bar{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.search-heading{
+    cursor: w-resize;
+}
+
+#buyerSearch{
+    display: none;
+}
+
+#renterSearch{
+    display: none;
+}
+
+
+.navbar-brand img{
+    height: 100px;
+    width: auto;
+    color: #fff;
+}
+
+.title-button{
+    margin: 1rem;
+
+.down-arrow{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    font-size: 2rem;
+    animation: MoveUpDown 1s ease-in-out infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 3px;
+  }
+}
+
+.light-section{
+    padding: 0 5rem 3rem;
+    background-color: #fff;
+}
+
+.coloured-section{
+    padding: 3rem 5rem;
+    background-color: #395B64;
+}
+
+.light-heading-em{
+    font-weight: 200;
+}
+
+.property-card{
+    margin: 1rem 0;
+}
+
+.property-card-heading{
+    font-size: 1rem;
+}
+
+.property-icon{
+    margin: 0 0 0 .1rem;
+}
+
+.property-preview-details{
+    font-size: 13px;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.testimonial-image{
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial-text{
+    padding: 2rem 3rem;
+}
+
+.footer{
+    text-align: center;
+    color: #444;
+    font-size: 25px;
+    padding: 2rem 0;
+}
+
+.social-icon-link{
+    color: #444;
+    display: hidden;
+    padding: none;
+}
+.social-icon-link:hover{
+    color: #A5C9CA;
+}
+
+
+.social-icon{
+    padding: 0 10px;
+}
+
+.copyright-text{
+    font-size: 12px;
+}

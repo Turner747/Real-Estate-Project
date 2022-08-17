@@ -1,0 +1,44 @@
+
+colour palette:
+
+primary: #2C3333
+secondary: #395B64
+tertiary: #A5C9CA
+forth: #E7F6F2
+
+site map:
+home 
+    buy - id ref same page
+    rent - id ref same page 
+about us
+contact us
+
+fonts:
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Parisienne', cursive;
+
+font-family: 'Cormorant Garamond', serif;
+
+image references:
+
+hero-option-1.jpg - Photo by Alex Staudinger: https://www.pexels.com/photo/sun-piercing-of-brown-concrete-house-near-sea-1732414/
+
+house1 - Photo by Binyamin Mellish: https://www.pexels.com/photo/house-lights-turned-on-106399/
+house2 - Photo by Expect Best: https://www.pexels.com/photo/modern-building-against-sky-323780/
+house3 - Photo by Scott Webb: https://www.pexels.com/photo/white-and-red-wooden-house-with-fence-1029599/
+house4 - Photo by Pixabay: https://www.pexels.com/photo/beige-bungalow-house-259588/
+house5 - Photo by Pixabay: https://www.pexels.com/photo/white-wooden-2-storey-house-near-tree-280229/
+house6 - Photo by Frans van Heerden: https://www.pexels.com/photo/white-single-story-houses-beside-body-of-water-1438832/
+house7 - Photo by Graphicgum.com: https://www.pexels.com/photo/white-2-storey-house-near-trees-1115804/
+house8 - Photo by Pixabay: https://www.pexels.com/photo/architecture-bushes-chimneys-clouds-208736/
+
+
+georgie-profiole - Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-wearing-coat-762020/
+
+sam-profile - Photo by Thyrone Paas: https://www.pexels.com/photo/portrait-photo-of-man-1722198/
+
+
