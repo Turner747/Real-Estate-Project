@@ -35,10 +35,22 @@ house5 - Photo by Pixabay: https://www.pexels.com/photo/white-wooden-2-storey-ho
 house6 - Photo by Frans van Heerden: https://www.pexels.com/photo/white-single-story-houses-beside-body-of-water-1438832/
 house7 - Photo by Graphicgum.com: https://www.pexels.com/photo/white-2-storey-house-near-trees-1115804/
 house8 - Photo by Pixabay: https://www.pexels.com/photo/architecture-bushes-chimneys-clouds-208736/
+house9 - Photo by Tiana: https://www.pexels.com/photo/white-parabolic-antenna-beside-brown-concrete-building-889042/
 
+agent1 - Photo by Alena Darmel: https://www.pexels.com/photo/man-in-gray-suit-jacket-holding-black-folder-7641824/
+agent2 - Photo by Christina Morillo: https://www.pexels.com/photo/woman-smiling-and-holding-teal-book-1181424/
+agent3 - Photo by Edmond Dantès: https://www.pexels.com/photo/woman-holding-a-laptop-4347368/
+
+property details:
+
+image1 - Photo by Expect Best: https://www.pexels.com/photo/modern-building-against-sky-323780/
+image2 - Photo by Max Vakhtbovych: https://www.pexels.com/photo/modern-kitchen-interior-with-a-parquet-floor-7587861/
+image3 - Photo by Max Vakhtbovych: https://www.pexels.com/photo/modern-gray-minimalistic-bedroom-interior-7587780/
+image4 - Photo by Max Vakhtbovych: https://www.pexels.com/photo/modern-minimalistic-home-interior-7587871/
+image5 - Photo by Max Vakhtbovych: https://www.pexels.com/photo/modern-living-room-interior-with-a-brick-wall-7587827/
+image6 - Photo by Max Vakhtbovych: https://www.pexels.com/photo/view-of-a-modern-kitchen-interior-7587864/
 
 georgie-profiole - Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-wearing-coat-762020/
-
 sam-profile - Photo by Thyrone Paas: https://www.pexels.com/photo/portrait-photo-of-man-1722198/
 
 

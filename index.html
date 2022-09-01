@@ -14,8 +14,7 @@
     </script>
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  
-            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,9 +36,8 @@
   </head>
   <body>
     <section id="title">
-        <div class="container-fluid header">
+        <div class="container-fluid header fancy-header">
 			
-            
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 
@@ -60,10 +58,7 @@
                             <a class="nav-link" href="#rent-featured">RENT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about_us.html">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact_us.html">CONTACT US</a>
+                            <a class="nav-link" href="about_us.html">ABOUT</a>
                         </li>
                     </ul>
                 </div>
@@ -98,64 +93,72 @@
                     <i class="fa-solid fa-chevron-down"></i>
                 </div>
             </div>
-
-            <div class="row">
-                
-            </div>
-
         </div>
 
         
     </section>
 
     <section class="light-section for-sale" id="buy-featured">
-        <h2 class="section-heading"><span class="light-heading-em"><i class="fa-solid fa-house"></i> For Sale Featured</span> </h2>
+        <div class="container-flex">
+            <h2 class="section-heading"><span class="light-heading-em"><i class="fa-solid fa-house"></i> For Sale Featured</span> </h2>
         
-        <div class="row">
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="row">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house1.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house1.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
+                        <span class="badge rounded-pill text-bg-primary price-badge">$950,000</span>
                         <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">Beautiful family home in a great seaside outer-suburb of Brisbane</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <p class="card-text property-card-text">Beautiful family home in a great seaside outer-suburb of Brisbane</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house2.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house2.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
+                        <span class="badge rounded-pill text-bg-primary price-badge">$1,150,000</span>
                         <h3 class="card-title property-card-heading">Twin Waters, Sunshine Coast</h3>
-                        <p class="card-text">Contempory coastal living, a diamond in the sand.</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 5 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 4 <i class="fa fa-car property-icon" aria-hidden="true"></i> 2</span>
+                        <p class="card-text property-card-text">Contempory coastal living, a diamond in the sand.</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 5 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 4 <i class="fa fa-car property-icon" aria-hidden="true"></i> 2</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house3.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house3.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
-                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">A great family home on the coast</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <span class="badge rounded-pill text-bg-primary price-badge">$675,000</span>
+                        <h3 class="card-title property-card-heading">Robina, Gold Coast</h3>
+                        <p class="card-text property-card-text">Cosy colonial era home.</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 3 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 1 <i class="fa fa-car property-icon" aria-hidden="true"></i> 0</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house4.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house4.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
-                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">A great family home on the coast</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <span class="badge rounded-pill text-bg-primary price-badge">$800,000</span>
+                        <h3 class="card-title property-card-heading">Branyan, Bundaberg</h3>
+                        <p class="card-text property-card-text">Classy manor in the country, only 4 hours north of Brisbane</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 3 <i class="fa fa-car property-icon" aria-hidden="true"></i> 2</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,50 +170,62 @@
         <h2 class="section-heading"><i class="fa-solid fa-house"></i><span class="light-heading-em"> For Rent Featured</span></h2>
         
         <div class="row">
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house5.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house5.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
-                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">A great family home on the coast</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <span class="badge rounded-pill text-bg-primary price-badge">$1,000/week</span>
+                        <h3 class="card-title property-card-heading">Miami, Gold Coast</h3>
+                        <p class="card-text property-card-text">Only house like it on the rental market. Don't pass up this opportunity to live in style.</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 3 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house6.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house6.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
-                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">A great family home on the coast</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <span class="badge rounded-pill text-bg-primary price-badge">$1,150/week</span>
+                        <h3 class="card-title property-card-heading">Broadwater, Gold Coast</h3>
+                        <p class="card-text property-card-text">Rented luxury right on the canal</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 1</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house7.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house7.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
-                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">A great family home on the coast</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <span class="badge rounded-pill text-bg-primary price-badge">$850/week</span>
+                        <h3 class="card-title property-card-heading">Ascot, Brisbane</h3>
+                        <p class="card-text property-card-text">Contempory living, a short walk from the trots.</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 5 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 4 <i class="fa fa-car property-icon" aria-hidden="true"></i> 2</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xl-3 col-lg-6 col-sm-12">
+            <div class="col-xxl-3 col-xl-6 col-sm-12 card-col">
                 <div class="card property-card">
-                    <img src="img/house8.jpg" class="card-img-top" alt="house preview image">
+                    <img src="img/home/house9.jpg" class="card-img-top" alt="house preview image">
                     <div class="card-body">
-                        <h3 class="card-title property-card-heading">Wynnum, Brisbane</h3>
-                        <p class="card-text">A great family home on the coast</p>
-                        <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
-                        <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 4 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 2 <i class="fa fa-car property-icon" aria-hidden="true"></i> 3</span>
+                        <span class="badge rounded-pill text-bg-primary price-badge">$700/week</span>
+                        <h3 class="card-title property-card-heading">Redfern, Sydney</h3>
+                        <p class="card-text property-card-text">Premium Sydney apartment, you won't find a better deal this close to the city.</p>
+                        <div class="card-enquiry">
+                            <a href="property_details.html" class="btn btn-dark card-button">Explore</a> 
+                            <span class="property-preview-details"><i class="fa fa-bed property-icon" aria-hidden="true"></i> 2 <i class="fa fa-bath property-icon" aria-hidden="true"></i> 1 <i class="fa fa-car property-icon" aria-hidden="true"></i> 0</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,12 +238,12 @@
             <div class="carousel-inner">
                 <div class="carousel-item active container-fluid">
                     <h2 class="testimonial-text">I would never sell with another real estate, 10/10 for service.</h2>
-                    <img class="testimonial-image" src="img/sam-profile.jpg" alt="Sam profile picture">
+                    <img class="testimonial-image" src="img/home/sam-profile.jpg" alt="Sam profile picture">
                     <em>Sam, Brisbane</em>
                 </div>
                 <div class="carousel-item container-fluid">
                     <h2 class="testimonial-text">They made the entire rental process so easy. Can not recommend them highly enough.</h2>
-                    <img class="testimonial-image" src="img/georgie-profile.jpg" alt="Georgie profile picture">
+                    <img class="testimonial-image" src="img/home/georgie-profile.jpg" alt="Georgie profile picture">
                     <em>Georgie, Robina</em>
                 </div>
             </div>
@@ -261,8 +276,10 @@
     </section>
     
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- jquery scripts -->
+    <script src="lib/jquery/jquery.min.js"></script>
 
     <!-- custom js scripts -->
     <script src="js/index.js"></script>

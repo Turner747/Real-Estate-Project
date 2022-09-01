@@ -18,20 +18,81 @@ a:hover{
     text-decoration: none;
 }
 
+.btn-dark{
+    background-color: #395B64 !important;
+    border: #395B64 !important;
+}
+
 .header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero-option-1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/hero-option-1.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 3rem;
+    position: relative;
+}
+
+.fancy-header{
+    height: 100vh;
+}
+
+.basic-header{
+    /* height: 280px; */
 }
 
 .header-content{
     text-align: center;
-    padding: 20rem 0 20rem 0;
     color: #fff;
 }
+
+.fancy-header .header-content{
+    margin-top: 35vh;
+}
+
+.basic-header .header-content{
+    margin: 10px 0 40px 0;
+}
+
+@media (max-width: 600px){
+
+    .header-heading{
+        font-size: 3.8rem;
+    }
+
+    .search-bar{
+        width: 80% !important;
+    }
+
+    .card-col{
+        padding: 1.5rem 0 !important;
+    }
+
+    .light-section{
+        padding: 0 3rem !important;
+        background-color: #fff;
+    }
+
+    .coloured-section{
+        padding: 1rem 1rem !important;
+        background-color: #395B64;
+    }
+
+    .testimonial-text{
+        padding: 0 0;
+    }
+}
+
+@media (max-width: 991px){
+    .address-header {
+        text-align: center !important; 
+    }
+
+    .price-header {
+        text-align: center !important;
+    }
+}
+
+
 
 .header-heading{
     font-family: 'Parisienne', cursive;
@@ -44,7 +105,7 @@ a:hover{
 }
 
 .search-heading{
-    cursor: w-resize;
+    cursor: pointer;
 }
 
 #buyerSearch{
@@ -64,6 +125,7 @@ a:hover{
 
 .title-button{
     margin: 1rem;
+}
 
 .down-arrow{
     text-align: center;
@@ -94,14 +156,48 @@ a:hover{
 .coloured-section{
     padding: 3rem 5rem;
     background-color: #395B64;
+    color: #fff;
+}
+
+.section-heading{
+    padding: 1rem 0;
 }
 
 .light-heading-em{
     font-weight: 200;
 }
 
+.card-col{
+    padding: 2rem 1rem;
+}
+
 .property-card{
-    margin: 1rem 0;
+    height: 100%;
+    position: relative;
+}
+
+.price-badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-left: 1rem;
+    background-color: #A5C9CA !important;
+    color: #000 !important;
+    border: 1px solid  #395B64 !important;
+    font-size: 1.2rem;
+}
+
+.property-card-text{
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.card-enquiry{
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    margin-top: 15px;
 }
 
 .property-card-heading{
@@ -109,11 +205,13 @@ a:hover{
 }
 
 .property-icon{
-    margin: 0 0 0 .1rem;
+    margin-left: 1rem !important;
 }
 
 .property-preview-details{
-    font-size: 13px;
+    font-size: 1rem;
+    position: relative;
+    left: .5rem;
 }
 
 .carousel-item{
@@ -153,4 +251,60 @@ a:hover{
 
 .copyright-text{
     font-size: 12px;
+}
+
+
+/* about us page */
+
+.about-us{
+    text-align: center;
+    padding: 2rem 7rem;
+}
+
+.about-contact-us{
+    text-align: center;
+}
+
+/* property details page */
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.address-header {
+    text-align: left;
+}
+
+.price-header {
+    text-align: right;
+}
+
+.property-heading {
+    margin: 2rem 7rem;
+}
+
+.details-details {
+    margin: 0 7rem;
+}
+
+.details-col {
+    text-align: center;
+}
+
+.enquire-btn {
+    margin: 2rem 0;
+}
+
+.map-col {
+    text-align: center;
+}
+
+.enquiry-success-alert {
+    display: none;
+}
+
+.enquiry-form{
+    text-align: left;
+    padding: 2rem 10rem;
 }
